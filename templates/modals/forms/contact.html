@@ -1,0 +1,31 @@
+
+<!-- Modal -->
+<div class="modal fade" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="contactFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactFormLabel">Форма зворотнього зв'язку</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрити">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Form 1 -->
+                <div class="container nopadding">
+                    <form action="form-handler.php" method="post" class="bg_white margin_auto max_width570 radius10 padding_sides100 padding_bottom25 text-center">
+                        <!-- <h2 class="bottom55 font42 font_second light dark_gray padding_top65">Create Your <br />Account</h2> -->
+                        <div class="bottom30 relative input_holder padding_top65">
+                            <i class="fa fa-user line_height50 dark_blue absolute left20"></i>
+                            <input type="text" name="name" placeholder="Ваше ім'я" class="input size50 border border_light_gray focus_blue radius6 width_full padding_left50 padding_right20" required />
+                        </div>
+                        <div class="bottom30 relative input_holder">
+                            <i class="fa fa-phone line_height50 dark_blue absolute left20"></i>
+                            <input type="text" name=" phone" placeholder="Ваш номер телефону" class="js-phone-input input size50 border border_light_gray focus_blue radius6 width_full padding_left50 padding_right20" required/>
+                        </div>
+                        <button class="top40 btn size60 red min_width230">Надіслати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
