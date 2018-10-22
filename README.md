@@ -1,2 +1,2 @@
 # publilab
-http://egerasimchuk.github.io/publilab.github.io/
+https://egerasimchuk.github.io/publilab/#
