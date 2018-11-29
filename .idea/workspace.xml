@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/sections/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navigation/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,27 +26,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="45" />
+          <entry key="html" value="46" />
           <entry key="js" value="1" />
           <entry key="svg" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="45" />
+          <entry key="HTML" value="46" />
           <entry key="JavaScript" value="1" />
           <entry key="SVG" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1942" />
+          <entry key="html" value="1953" />
           <entry key="js" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1942" />
+          <entry key="HTML" value="1953" />
           <entry key="JavaScript" value="76" />
         </counts>
       </usages-collector>
@@ -69,25 +70,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+            <state relative-caret-position="377">
+              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i/svg/chat.svg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/templates/navigation/top.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="67" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+            <state relative-caret-position="30">
+              <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -132,6 +137,7 @@
     <findStrings>
       <find>=&quot;32&quot;</find>
       <find>class=&quot;float_left&quot;</find>
+      <find>height=&quot;120&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>=&quot;40&quot;</replace>
@@ -161,7 +167,6 @@
         <option value="$PROJECT_DIR$/templates/packages/index.html" />
         <option value="$PROJECT_DIR$/templates/services/index.html" />
         <option value="$PROJECT_DIR$/templates/forms/order.html" />
-        <option value="$PROJECT_DIR$/templates/navigation/top.html" />
         <option value="$PROJECT_DIR$/templates/modals/about.html" />
         <option value="$PROJECT_DIR$/templates/sections/promo.html" />
         <option value="$PROJECT_DIR$/templates/modals/forms/contact.html" />
@@ -169,10 +174,11 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/sections/packages.html" />
-        <option value="$PROJECT_DIR$/templates/sections/services.html" />
         <option value="$PROJECT_DIR$/templates/sections/features.html" />
         <option value="$PROJECT_DIR$/templates/sections/main.html" />
         <option value="$PROJECT_DIR$/templates/sections/team.html" />
+        <option value="$PROJECT_DIR$/templates/navigation/top.html" />
+        <option value="$PROJECT_DIR$/templates/sections/services.html" />
       </list>
     </option>
   </component>
@@ -209,6 +215,12 @@
               <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
               <item name="publiclab" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="publiclab" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +290,12 @@
       <workItem from="1540139790087" duration="6348000" />
       <workItem from="1540235528619" duration="4659000" />
       <workItem from="1540318053622" duration="4831000" />
-      <workItem from="1543496982777" duration="293000" />
+      <workItem from="1543496982777" duration="775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28144000" />
+    <option name="totallyTimeSpent" value="28626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -385,13 +397,6 @@
     <entry file="file://$PROJECT_DIR$/templates/services/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navigation/top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/modals/about.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -468,13 +473,6 @@
     <entry file="file://$PROJECT_DIR$/i/svg/chat.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="67" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i/svg/water.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -506,8 +504,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        <state relative-caret-position="377">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navigation/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
         </state>
       </provider>
     </entry>
