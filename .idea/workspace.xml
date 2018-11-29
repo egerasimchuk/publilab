@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/partners.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="47" />
+          <entry key="html" value="49" />
           <entry key="js" value="1" />
           <entry key="png" value="1" />
           <entry key="svg" value="11" />
@@ -33,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="47" />
+          <entry key="HTML" value="49" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="SVG" value="11" />
@@ -41,13 +41,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1984" />
+          <entry key="html" value="1988" />
           <entry key="js" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1984" />
+          <entry key="HTML" value="1988" />
           <entry key="JavaScript" value="76" />
         </counts>
       </usages-collector>
@@ -62,11 +62,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="154">
+              <caret line="15" column="99" lean-forward="true" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../kievgaz/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="294" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -113,16 +131,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i/svg/water-bottle-white.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i/svg/ventilation.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/packages.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -165,7 +173,6 @@
         <option value="$PROJECT_DIR$/templates/packages/modals/house-water.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/sections/make-order.html" />
-        <option value="$PROJECT_DIR$/templates/sections/partners.html" />
         <option value="$PROJECT_DIR$/templates/sections/contacts.html" />
         <option value="$PROJECT_DIR$/templates/news/index.html" />
         <option value="$PROJECT_DIR$/templates/packages/index.html" />
@@ -184,6 +191,7 @@
         <option value="$PROJECT_DIR$/templates/sections/services.html" />
         <option value="$PROJECT_DIR$/templates/sections/footer.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/sections/partners.html" />
       </list>
     </option>
   </component>
@@ -215,17 +223,6 @@
             <path>
               <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
               <item name="publiclab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="publiclab" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="publiclab" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="made_evolve_sans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
@@ -264,11 +261,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/i/logo" />
+      <recent name="$PROJECT_DIR$/i" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/i/bg" />
       <recent name="$PROJECT_DIR$/i/svg" />
-      <recent name="$PROJECT_DIR$/templates/modals" />
-      <recent name="$PROJECT_DIR$/templates/sections" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/i/svg" />
@@ -306,12 +303,12 @@
       <workItem from="1540139790087" duration="6348000" />
       <workItem from="1540235528619" duration="4659000" />
       <workItem from="1540318053622" duration="4831000" />
-      <workItem from="1543496982777" duration="1170000" />
+      <workItem from="1543496982777" duration="2220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29021000" />
+    <option name="totallyTimeSpent" value="30071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -387,25 +384,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/news/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../kievgaz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="422" lean-forward="true" selection-start-line="422" selection-end-line="452" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/services/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -539,10 +522,24 @@
     <entry file="file://$PROJECT_DIR$/logo23-e1530710507660.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../kievgaz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="294" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="154">
+          <caret line="15" column="99" lean-forward="true" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
         </state>
       </provider>
     </entry>
