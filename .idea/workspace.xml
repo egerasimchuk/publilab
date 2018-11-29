@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/i/services/air.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/services/home-water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/services/out-water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/services/ozon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/services/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="49" />
+          <entry key="html" value="51" />
           <entry key="js" value="1" />
           <entry key="png" value="1" />
           <entry key="svg" value="11" />
@@ -33,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="49" />
+          <entry key="HTML" value="51" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="SVG" value="11" />
@@ -41,13 +49,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2024" />
+          <entry key="html" value="2085" />
           <entry key="js" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2024" />
+          <entry key="HTML" value="2085" />
           <entry key="JavaScript" value="76" />
         </counts>
       </usages-collector>
@@ -63,10 +71,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="241">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/features.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+            <state relative-caret-position="53">
+              <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -127,20 +156,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logo23-e1530710507660.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/sections/packages.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i/svg/valve.svg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -185,13 +200,13 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/templates/sections/packages.html" />
         <option value="$PROJECT_DIR$/templates/sections/features.html" />
-        <option value="$PROJECT_DIR$/templates/sections/main.html" />
         <option value="$PROJECT_DIR$/templates/sections/team.html" />
-        <option value="$PROJECT_DIR$/templates/sections/services.html" />
         <option value="$PROJECT_DIR$/templates/sections/footer.html" />
         <option value="$PROJECT_DIR$/templates/sections/partners.html" />
         <option value="$PROJECT_DIR$/templates/navigation/top.html" />
+        <option value="$PROJECT_DIR$/templates/sections/services.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/sections/main.html" />
       </list>
     </option>
   </component>
@@ -223,6 +238,17 @@
             <path>
               <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
               <item name="publiclab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="publiclab" type="462c0819:PsiDirectoryNode" />
+              <item name="i" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="publiclab" type="462c0819:PsiDirectoryNode" />
+              <item name="i" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="publiclab" type="b2602c69:ProjectViewProjectNode" />
@@ -268,11 +294,11 @@
       <recent name="$PROJECT_DIR$/i/bg" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/i/features" />
       <recent name="$PROJECT_DIR$/i" />
       <recent name="$PROJECT_DIR$/i/svg" />
       <recent name="$PROJECT_DIR$/templates/sections" />
       <recent name="$PROJECT_DIR$/templates/services/modals" />
-      <recent name="$PROJECT_DIR$/templates/packages/modals" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,12 +330,12 @@
       <workItem from="1540139790087" duration="6348000" />
       <workItem from="1540235528619" duration="4659000" />
       <workItem from="1540318053622" duration="4831000" />
-      <workItem from="1543496982777" duration="3320000" />
+      <workItem from="1543496982777" duration="3935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31171000" />
+    <option name="totallyTimeSpent" value="31786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -450,23 +476,6 @@
     <entry file="file://$PROJECT_DIR$/i/svg/water-bottle.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/features.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i/svg/chat.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -491,13 +500,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i/svg/valve.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/footer.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,10 +539,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/features.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="241">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
