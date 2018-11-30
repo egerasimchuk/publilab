@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/sections/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto1_2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto2_2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto3_2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/demo_images/showcase_9_foto4_2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/news-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i/news-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/news.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +36,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="58" />
+          <entry key="html" value="59" />
+          <entry key="jpg" value="1" />
           <entry key="js" value="1" />
           <entry key="png" value="5" />
           <entry key="svg" value="11" />
@@ -33,21 +45,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="58" />
-          <entry key="Image" value="5" />
+          <entry key="HTML" value="59" />
+          <entry key="Image" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="SVG" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2525" />
+          <entry key="html" value="2641" />
           <entry key="js" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2525" />
+          <entry key="HTML" value="2641" />
           <entry key="JavaScript" value="76" />
         </counts>
       </usages-collector>
@@ -62,7 +74,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/features.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -83,13 +95,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/i/5_main.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -99,9 +113,11 @@
       <find>=&quot;32&quot;</find>
       <find>class=&quot;float_left&quot;</find>
       <find>height=&quot;120&quot;</find>
+      <find>width=&quot;60&quot; height=&quot;60&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>=&quot;40&quot;</replace>
+      <replace>width=&quot;120&quot; height=&quot;120&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -139,8 +155,9 @@
         <option value="$PROJECT_DIR$/templates/services/modals/analyze-air.html" />
         <option value="$PROJECT_DIR$/templates/services/modals/ozonation.html" />
         <option value="$PROJECT_DIR$/templates/sections/packages.html" />
-        <option value="$PROJECT_DIR$/templates/sections/news.html" />
         <option value="$PROJECT_DIR$/templates/sections/features.html" />
+        <option value="$USER_HOME$/Downloads/SF_SAMPLE_Project_oVu57q/index.html" />
+        <option value="$PROJECT_DIR$/templates/sections/news.html" />
       </list>
     </option>
   </component>
@@ -247,11 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/i" />
+      <recent name="$PROJECT_DIR$/i/demo_images" />
       <recent name="$PROJECT_DIR$/i/logo" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/i/logo/" />
-      <recent name="$PROJECT_DIR$/i" />
-      <recent name="$PROJECT_DIR$/fonts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/i/features" />
@@ -290,12 +307,12 @@
       <workItem from="1540139790087" duration="6348000" />
       <workItem from="1540235528619" duration="4659000" />
       <workItem from="1540318053622" duration="4831000" />
-      <workItem from="1543496982777" duration="10417000" />
+      <workItem from="1543496982777" duration="12065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38268000" />
+    <option name="totallyTimeSpent" value="39916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -532,13 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
+    <entry file="file://$USER_HOME$/Downloads/SF_SAMPLE_Project_oVu57q/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -548,6 +562,16 @@
           <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i/5_main.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
