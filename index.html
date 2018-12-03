@@ -6,8 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-		<link href="http://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css" />
-		<link href="http://allfont.ru/allfont.css?fonts=hermes" rel="stylesheet" type="text/css" />
+		<link href="https://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css" />
+		<link href="https://allfont.ru/allfont.css?fonts=hermes" rel="stylesheet" type="text/css" />
 		<link href="css/style.css" rel="stylesheet" />
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -19,12 +19,37 @@
 			.hermes {
 				font-family: 'Hermes', arial !important;
 			}
+			#container {
+
+				width: 100%;
+				height: 100%;
+				min-height: 200px;
+				overflow: hidden;
+				-webkit-filter: blur(2px);
+				-moz-filter: blur(2px);
+				-o-filter: blur(2px);
+				-ms-filter: blur(2px);
+				filter: blur(2px);
+				z-index: -100;
+			}
+
+			#videobcg {
+				width: 100%;
+				height: auto;
+				object-fit: contain;
+			}
 		</style>
 	</head>
 	<body>
 
 <!-- Form 4 -->
 <div include-html="./templates/navigation/top.html"></div>
+<div id="container" style="z-index: 1;">
+	<video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+		<source src="i/bg.mp4" type="video/mp4">
+		Sorry, your browser does not support HTML5 video.
+	</video>
+</div>
 <div include-html="./templates/sections/main.html"></div>
 <div include-html="./templates/sections/services.html"></div>
 <!-- <div include-html="./templates/sections/promo.html"></div> -->
