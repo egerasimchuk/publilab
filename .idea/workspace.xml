@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i/bg2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sections/video.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sections/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sections/packages.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/packages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services/modals/analyze-water.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/modals/analyze-water.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="133">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sections/video.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,17 +142,18 @@
         <option value="$PROJECT_DIR$/templates/sections/team.html" />
         <option value="$PROJECT_DIR$/templates/sections/partners.html" />
         <option value="$PROJECT_DIR$/templates/navigation/top.html" />
-        <option value="$PROJECT_DIR$/templates/sections/services.html" />
         <option value="$PROJECT_DIR$/templates/services/modals/analyze-air.html" />
         <option value="$PROJECT_DIR$/templates/services/modals/ozonation.html" />
         <option value="$PROJECT_DIR$/templates/sections/features.html" />
         <option value="$USER_HOME$/Downloads/SF_SAMPLE_Project_oVu57q/index.html" />
         <option value="$PROJECT_DIR$/templates/sections/news.html" />
-        <option value="$PROJECT_DIR$/templates/sections/main.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/sections/packages.html" />
         <option value="$PROJECT_DIR$/templates/services/modals/analyze-water.html" />
         <option value="$PROJECT_DIR$/templates/sections/footer.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/sections/main.html" />
+        <option value="$PROJECT_DIR$/templates/sections/services.html" />
+        <option value="$PROJECT_DIR$/templates/sections/video.html" />
       </list>
     </option>
   </component>
@@ -194,11 +213,11 @@
       <recent name="$PROJECT_DIR$/templates/services/modals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/sections" />
       <recent name="$PROJECT_DIR$/i" />
       <recent name="$PROJECT_DIR$/i/demo_images" />
       <recent name="$PROJECT_DIR$/i/logo" />
       <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/i/logo/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,12 +250,12 @@
       <workItem from="1540235528619" duration="4659000" />
       <workItem from="1540318053622" duration="4831000" />
       <workItem from="1543496982777" duration="16980000" />
-      <workItem from="1547807142566" duration="877000" />
+      <workItem from="1547807142566" duration="1675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45708000" />
+    <option name="totallyTimeSpent" value="46506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -411,9 +430,6 @@
     <entry file="file://$USER_HOME$/Downloads/SF_SAMPLE_Project_oVu57q/index.html" />
     <entry file="file://$PROJECT_DIR$/i/5_main.jpg" />
     <entry file="file://$USER_HOME$/kievgaz/index.html" />
-    <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/features.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -458,16 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -475,10 +481,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
