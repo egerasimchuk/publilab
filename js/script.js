@@ -715,4 +715,156 @@ if($(".pricing_table_6 .slider").length>0){
 		$(".pricing_table_6 .slider").slick("slickNext");
 	});
 }
+// Play video
 
+$(".video .play").click(function(){
+	var video = $(this).parent().parent().find("video");
+	$(this).closest(".poster").fadeOut(300,function(){
+		video.fadeIn(300,function(){
+			video[0].play();
+			video[0].onended = function() {
+				$(this).parent().find(".poster").delay(100).fadeIn(300);
+			};
+		});
+	});
+});
+
+// Open video in popup
+
+$(".play_popup_video").click(function(event){
+	event.preventDefault();
+	var url = $(this).attr("href");
+	$(".video_popup .iframe_container").html('<iframe src="'+url+'" allowfullscreen></iframe>');
+	$(".video_popup, .overlay").fadeIn(300);
+});
+
+// Close video popup
+
+$(".video_popup .close, .overlay").click(function(e){
+	$(".video_popup, .overlay").fadeOut(300);
+	setTimeout(function() {
+		$(".video_popup .iframe_container").html('');
+	},300);
+});
+
+// Video in block's background
+
+if($(".bg_video").length>0){
+	if($(".youtube_video").length>0){
+		function onYouTubeIframeAPIReady() {
+			var player, video_container_id, videoId, ratio;
+			$(".youtube_video").each(function(){
+				video_container_id = $(this).attr("id");
+				videoId = $(this).attr("data-videoId");
+				player = new YT.Player(video_container_id, {
+					videoId: videoId,
+					playerVars:{
+						'autoplay':1,
+						'color':'white',
+						'controls':0,
+						'iv_load_policy':3,
+						'loop':1,
+						'mute':1,
+						'modestbranding':1,
+						'playlist':videoId,
+						'rel':0,
+						'showinfo':0
+					},
+					events: {
+						'onReady': onPlayerReady,
+						'onStateChange': onPlayerStateChange
+					}
+
+				});
+			});
+		}
+		var video_iframe, ratio, container_width, container_height, video_width, video_height, player_start, player_end, players_timeouts;
+		players_timeouts = [];
+		function onPlayerReady(event) {
+			video_iframe = $(event.target.getIframe());
+			player_start = video_iframe.attr("data-start");
+			if(player_start!=undefined){
+				player_start = parseInt(player_start);
+				event.target.seekTo(player_start);
+			}
+			event.target.playVideo();
+			ratio = video_iframe.attr("data-ratio").split(":");
+			container_width = video_iframe.parent().width();
+			container_height = video_iframe.parent().outerHeight(true);
+			if(container_width/ratio[0]*ratio[1] < container_height){
+				video_width = container_width/ratio[1]*ratio[0] + 20;
+				video_iframe.width(video_width);
+			}else{
+				video_height = container_width/ratio[0]*ratio[1] + 20;
+				video_iframe.height(video_height);
+			}
+		}
+		function onPlayerStateChange(event) {
+			video_iframe = $(event.target.getIframe());
+			player_start = video_iframe.attr("data-start");
+			player_end = video_iframe.attr("data-end");
+			if(player_start!=undefined){
+				player_start = parseInt(player_start);
+				if(player_end==undefined){
+					player_end = event.target.getDuration();
+				}else{
+					player_end = parseInt(player_end);
+				}
+				if (event.data == YT.PlayerState.PLAYING){
+					var player_timeout_id = video_iframe.attr("id");
+					players_timeouts[player_timeout_id] = setTimeout(function(){
+						event.target.pauseVideo().seekTo(player_start).playVideo();
+					},((player_end-player_start)*1000));
+				}
+			}
+		}
+		$(window).resize(function(){
+			video_iframe = $(".bg_video").find("iframe");
+			ratio = video_iframe.attr("data-ratio").split(":");
+			container_width = video_iframe.parent().width();
+			container_height = video_iframe.parent().outerHeight(true);
+			if(container_width/ratio[0]*ratio[1] < container_height){
+				video_width = container_width/ratio[1]*ratio[0] + 20;
+				video_iframe.width(video_width);
+			}else{
+				video_height = container_width/ratio[0]*ratio[1] + 20;
+				video_iframe.height(video_height);
+			}
+		});
+	}
+}
+
+
+// Opening tabs
+
+function openTab(tab){
+	if(tab.hasClass("opened")){
+		$(".tab_text").animate({height:0},300);
+		tab.removeClass("opened");
+	}else{
+		var nextTabHeight = tab.next().find("div").outerHeight(true);
+		$(".tab_text").not(tab.next()).animate({height:0},300);
+		tab.next().animate({height:nextTabHeight},300);
+		$(".tab_opener").removeClass("opened");
+		tab.addClass("opened");
+	}
+}
+
+$(".tab_opener").click(function(){
+	openTab($(this));
+});
+
+if($(".opening_tabs").length > 0){
+	$(".tab_opener").each(function(){
+		if($(this).hasClass("opened")){
+			var nextTabHeight = $(this).next().find("div").outerHeight(true);
+			$(this).next().css("height",nextTabHeight);
+		}
+	});
+}
+
+// Copy text from block
+
+if($("#copy_from_me").length > 0){
+	new Clipboard('.copy_btn');
+}
