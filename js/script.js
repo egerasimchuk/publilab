@@ -174,7 +174,7 @@ if($(".background_video").length>0){
  
 // Open video in popup
 
-$(".play_popup_video").click(function(event){
+$("body").on('click', ".play_popup_video", function(event){
 	event.preventDefault();
 	var url = $(this).attr("href");
 	$(".video_popup .iframe_container").html('<iframe src="'+url+'" allowfullscreen></iframe>');

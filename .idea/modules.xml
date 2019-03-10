@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/SF_SAMPLE_Project_lSjx63/.idea/SF_SAMPLE_Project_lSjx63.iml" filepath="$USER_HOME$/Downloads/SF_SAMPLE_Project_lSjx63/.idea/SF_SAMPLE_Project_lSjx63.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/publiclab.iml" filepath="$PROJECT_DIR$/.idea/publiclab.iml" />
     </modules>
   </component>
