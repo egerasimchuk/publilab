@@ -6201,6 +6201,9 @@ b, strong {
   background: #15a8ce;
 }
 
+.services-list li {
+  max-width: 230px;
+}
 
 /* Smaller than 900px */
 @media (min-width: 980px) {
