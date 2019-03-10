@@ -6197,8 +6197,34 @@ b, strong {
   background: #50c4c8;
 }
 
-
-
 .btn-square:hover {
   background: #15a8ce;
+}
+
+
+/* Smaller than 900px */
+@media (min-width: 980px) {
+  .services-list {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+/* Smaller than 900px */
+@media (max-width: 980px) {
+  .services-list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+/* Smaller than 340px */
+@media (max-width: 400px) {
+  .services-list {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 }
