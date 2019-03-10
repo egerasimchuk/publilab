@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/services/modals/analyze-air-work.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/modals/analyze-air-work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services/modals/analyze-water-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/modals/analyze-water-out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/partners.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,18 +58,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -97,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/services/modals/analyze-air-work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="4">
               <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -175,7 +171,6 @@
         <option value="$PROJECT_DIR$/templates/navigation/top.html" />
         <option value="$PROJECT_DIR$/templates/sections/index copy.html" />
         <option value="$PROJECT_DIR$/templates/sections/contacts.html" />
-        <option value="$PROJECT_DIR$/templates/sections/partners.html" />
         <option value="$PROJECT_DIR$/templates/sections/team.html" />
         <option value="$PROJECT_DIR$/templates/sections/video.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
@@ -190,6 +185,7 @@
         <option value="$PROJECT_DIR$/templates/sections/footer.html" />
         <option value="$PROJECT_DIR$/templates/services/modals/analyze-water-out.html" />
         <option value="$PROJECT_DIR$/templates/services/modals/analyze-air-work.html" />
+        <option value="$PROJECT_DIR$/templates/sections/partners.html" />
       </list>
     </option>
   </component>
@@ -365,12 +361,12 @@
       <workItem from="1547807142566" duration="2114000" />
       <workItem from="1548706982316" duration="2084000" />
       <workItem from="1551189675250" duration="9409000" />
-      <workItem from="1552233685833" duration="8364000" />
+      <workItem from="1552233685833" duration="8466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66802000" />
+    <option name="totallyTimeSpent" value="66904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -504,13 +500,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i/partner_b.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i/team/12.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -693,8 +682,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/services/modals/analyze-air-work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="4">
           <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
         </state>
       </provider>
     </entry>
