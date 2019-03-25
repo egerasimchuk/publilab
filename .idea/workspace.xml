@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/features/modals/equipment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/features/modals/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/features/modals/prices.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/features/modals/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sections/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/features/modals/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/features/modals/prices.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/features/modals/prices.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+            <state relative-caret-position="240">
+              <caret line="16" column="372" selection-start-line="16" selection-start-column="372" selection-end-line="16" selection-end-column="372" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -88,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/features/modals/equipment.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -401,12 +396,12 @@
       <workItem from="1552472199406" duration="2202000" />
       <workItem from="1552940251122" duration="2278000" />
       <workItem from="1553029213892" duration="403000" />
-      <workItem from="1553285916865" duration="8529000" />
+      <workItem from="1553285916865" duration="8700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81315000" />
+    <option name="totallyTimeSpent" value="81486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -744,16 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/features/modals/prices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/features/modals/info.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -778,6 +763,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/features/modals/prices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="372" selection-start-line="16" selection-start-column="372" selection-end-line="16" selection-end-column="372" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
