@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MADEEvolveSans';
-    src: local('MADEEvolveSans'), local('MADEEvolveSans'), url('MADE Evolve Sans Thin.otf') format('otf');
-    font-weight: 100;
+    src: local('MADEEvolveSansMedium'), url('MADE Evolve Sans Medium EVO.otf') format('otf');
+    font-weight: 600;
     font-style: normal;
 }
