@@ -868,3 +868,42 @@ if($(".opening_tabs").length > 0){
 if($("#copy_from_me").length > 0){
 	new Clipboard('.copy_btn');
 }
+
+
+if($(".content_23_slider").length>0){
+	$(".content_23_slider").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '.content_23_slider_nav',
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					asNavFor: null,
+					dots:true,
+				}
+			}
+		]
+	});
+
+	$('.content_23_slider_nav').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		asNavFor: '.content_23_slider',
+		dots: false,
+		arrows: false,
+		vertical:true,
+		focusOnSelect: true,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					vertical:false,
+					slidesToShow: 4
+				}
+			}
+		]
+	});
+}
