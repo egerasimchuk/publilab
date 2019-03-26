@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>Public Lab - Новини</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.ru/allfont.css?fonts=hermes" rel="stylesheet" type="text/css" />
+    <link href="fonts/madeevolvesans/madeevol.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+    <style>
+        body, .MADEEvolveSans {
+            font-family: 'MADEEvolveSans', arial !important;
+        }
+        .hermes {
+            font-family: 'Hermes', arial !important;
+        }
+        #container {
+
+            width: 100%;
+            height: 100%;
+            min-height: 200px;
+            overflow: hidden;
+            /*-webkit-filter: blur(2px);*/
+            /*-moz-filter: blur(2px);*/
+            /*-o-filter: blur(2px);*/
+            /*-ms-filter: blur(2px);*/
+            /*filter: blur(2px);*/
+            /*z-index: -100;*/
+        }
+
+        #videobcg {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        .bg_mint {
+            background-color: #eef6f4;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Form 4 -->
+<div include-html="./templates/navigation/top.html"></div>
+
+<div include-html="./templates/news/2.html"></div>
+<div include-html="./templates/sections/footer.html"></div>
+
+<!-- forms alerts -->
+<div class="alert alert-success alert-dismissible alert-form-success" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    Thanks for your message!
+</div>
+<div class="alert alert-warning alert-dismissible alert-form-check-fields" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    Please, fill in required fields.
+</div>
+<div class="alert alert-danger alert-dismissible alert-form-error" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    An error occurred while sending data :(
+</div>
+<!-- popup with video -->
+<div class="overlay"></div>
+
+<div class="video_popup">
+    <a class="close">
+        <img srcset="i/close_white.png 1x, i/close_white_2x.png 2x" src="i/close_white.png" alt="" />
+    </a>
+    <div class="flex align_center justify_center width_full height_full iframe_container"></div>
+</div>
+
+
+<script src="js/slick.min.js"></script>
+<script src="js/aos.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/script.js?v=5"></script>
+<script>
+  function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /*loop through a collection of all HTML elements:*/
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+      elmnt = z[i];
+      /*search for elements with a certain atrribute:*/
+      file = elmnt.getAttribute("include-html");
+      if (file) {
+        /*make an HTTP request using the attribute value as the file name:*/
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            /*remove the attribute, and call this function once more:*/
+            elmnt.removeAttribute("include-html");
+            includeHTML();
+            initGoogleMaps();
+            initSlides();
+          }
+        }
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /*exit the function:*/
+        return;
+      }
+    }
+  }
+  includeHTML();
+</script>
+
+
+</body>
+</html>
