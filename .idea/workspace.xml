@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2033b00a-3b60-4016-adfe-72c1541cb40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/i/news/1-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i/news/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i/news/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i/news/Screen Shot 2019-03-26 at 22.52.10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sections/news-old.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/publiclab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/publiclab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sections/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sections/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/sections/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sections/partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sections/partners.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,30 +58,16 @@
         <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/sections/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="196">
+              <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -112,7 +89,16 @@
         <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="537" column="24" selection-start-line="537" selection-start-column="24" selection-end-line="537" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -217,14 +203,14 @@
         <option value="$PROJECT_DIR$/templates/sections/packages.html" />
         <option value="$PROJECT_DIR$/templates/sections/services.html" />
         <option value="$PROJECT_DIR$/templates/sections/team.html" />
-        <option value="$PROJECT_DIR$/templates/sections/partners.html" />
         <option value="$PROJECT_DIR$/templates/sections/promo.html" />
         <option value="$PROJECT_DIR$/templates/navigation/top.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/templates/sections/contacts.html" />
         <option value="$PROJECT_DIR$/templates/sections/about.html" />
-        <option value="$PROJECT_DIR$/templates/sections/news.html" />
+        <option value="$PROJECT_DIR$/templates/sections/partners.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/sections/news.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -375,12 +361,12 @@
       <workItem from="1552940251122" duration="2278000" />
       <workItem from="1553029213892" duration="403000" />
       <workItem from="1553285916865" duration="10377000" />
-      <workItem from="1553631106909" duration="2345000" />
+      <workItem from="1553631106909" duration="2996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85508000" />
+    <option name="totallyTimeSpent" value="86159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -676,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="532" column="16" selection-start-line="532" selection-start-column="6" selection-end-line="532" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/SF_SAMPLE_Project_qRFnkU/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -729,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sections/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -756,20 +728,34 @@
     <entry file="file://$PROJECT_DIR$/templates/sections/main.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
+    <entry file="file://$PROJECT_DIR$/templates/sections/partners.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="196">
+          <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sections/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="537" column="24" selection-start-line="537" selection-start-column="24" selection-end-line="537" selection-end-column="24" />
         </state>
       </provider>
     </entry>
