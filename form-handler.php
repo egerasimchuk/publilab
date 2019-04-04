@@ -6,13 +6,13 @@ if (!empty($_POST))
 		/* SETTINGS */
 
 		// email "subject"
-		$title = 'New message from my Landing page';
+		$title = 'Public Lab - Нове замовлення';
 		// email field "From" - name of sender (e.g. your first & last name)
-		$from_name = "John Jonson";
+		$from_name = "Public Lab";
 		// email field "From" - email of sender (e.g. "robot@domain.com")
-		$from_email = "robot@domain.com";
+		$from_email = "public@gmail.com";
 		// Email to receive message - PUT YOUR EMAIL HERE
-		$to = "my@email.com";
+		$to = "publiclabua@gmail.com";
 		
 		/* END OF SETTINGS */
 		
@@ -25,10 +25,10 @@ if (!empty($_POST))
 		/* FORM FIELDS */
 		// if you added some more fields to form, you should add them here too. $_POST["foo"] = <input name="foo" /> or <select name="foo"> or <textarea name="foo">
 		
-		if(!empty($_POST['name'])){			$message .= "<b>Name:</b> ".$_POST['name'].'<br />'; }					
+		if(!empty($_POST['name'])){			$message .= "<b>Имя:</b> ".$_POST['name'].'<br />'; }
 		if(!empty($_POST['firstname'])){	$message .= "<b>First Name:</b> ".$_POST['firstname'].'<br />'; }					
 		if(!empty($_POST['lastname'])){		$message .= "<b>Last Name:</b> ".$_POST['lastname'].'<br />'; }					
-		if(!empty($_POST['phone'])){ 		$message .= "<b>Phone:</b> ".$_POST['phone'].'<br />';	}				
+		if(!empty($_POST['phone'])){ 		$message .= "<b>Телефон:</b> ".$_POST['phone'].'<br />';	}
 		if(!empty($_POST['email'])){ 		$message .= "<b>E-mail:</b> ".$_POST['email'].'<br />';	}				
 		if(!empty($_POST['username'])){ 	$message .= "<b>Username:</b> ".$_POST['username'].'<br />';	}				
 		if(!empty($_POST['username2'])){ 	$message .= "<b>Username:</b> ".$_POST['username2'].'<br />';	}				
